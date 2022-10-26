@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="">
+      <form class="rounded border border-2 container-sm d-grid gap-3 p-4">
+        <div class="parametros row">
+          <input type="number" id="deltat" class="col" />
+          <input type="number" id="w" class="col" />
+        </div>
+        <div class="function row">
+          <input type="number" name="" id="x3" class="col" />
+          <span class="col">X'''</span>
+          <input type="number" id="x2" class="col" />
+          <span class="col">X''</span>
+          <input type="number" id="x1" class="col" />
+          <span class="col">X'</span>
+          <input type="number" id="x0" class="col" />
+          <span class="col">X = </span>
+          <input type="number" id="result" class="col" />
+          <select name="" id="result-f" class="col">
+            <option value="t">t</option>
+            <option value="t2">t^2</option>
+            <option value="t3">t^3</option>
+            <option value="gt">delta(t)</option>
+          </select>
+          <span class="col">+</span>
+          <input type="number" id="plus" class="col" />
+        </div>
+        <button onclick="enviar()" type="button" class="btn btn-dark">Calcular</button>
+      </form>
+    </div>
+    <div id="matriz"></div>
+    <div id="tabla"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+    <script src="./js.js">
+    </script>
+  </body>
+</html>
