@@ -1,0 +1,59 @@
+.formbox{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 45rem;
+}
+
+.formbox form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+input{
+    width: 4rem;
+    border: 1px solid rgb(37, 14, 37);
+    border-radius: 0.3rem;
+}
+
+.parametros input{
+    width: 3.5rem;
+}
+
+.function{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.antes input{
+    width: 3rem;
+}
+
+.tablas{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+table{
+    padding: 0.5rem;
+    display: inline-block;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.tabla{
+    margin: 0 auto;
+}
+
+.tabla table tr{
+    display: flex;
+    gap: 1rem;
+}
